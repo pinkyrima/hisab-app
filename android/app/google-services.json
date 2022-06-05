@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "79702432342",
+    "project_id": "hisab-app-5ebe9",
+    "storage_bucket": "hisab-app-5ebe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79702432342:android:9ca1cc328b5e7f7bdfb9f7",
+        "android_client_info": {
+          "package_name": "com.pinki.dfdflutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79702432342-lek736m9s2c8q1i2jeip58qrfal2uumd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdFu_MFJYSHarpgBLMXVeMuUBLKGVnmMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79702432342-lek736m9s2c8q1i2jeip58qrfal2uumd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

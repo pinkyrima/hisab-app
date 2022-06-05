@@ -13,13 +13,13 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   int _currentPage = 0;
 
   final List<Widget> list = [
-    SliderScreen(
+    const SliderScreen(
       title: 'Onboarding Title 1',
       subTitle:
           'Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit. Lobortis\nsed elit aliquam ultricies in.',
       backgroundImage: 'assets/images/onboardingImg1.png',
     ),
-    SliderScreen(
+    const SliderScreen(
       title: 'Onboarding Title 2',
       subTitle:
           'Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit. Lobortis\nsed elit aliquam ultricies in.',
@@ -58,7 +58,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               controller: _controller,
               scrollDirection: Axis.horizontal,
               itemCount: list.length,
-              physics: BouncingScrollPhysics(),
+              physics: const BouncingScrollPhysics(),
               onPageChanged: onChanged,
               itemBuilder: (context, int index) {
                 return list[index];
@@ -69,12 +69,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: List<Widget>.generate(list.length, (int index) {
               return AnimatedContainer(
-                duration: Duration(milliseconds: 300),
+                duration: const Duration(milliseconds: 300),
                 height:  10
                     ,
                 width: 10
                     ,
-                margin: EdgeInsets.symmetric(horizontal: 5, vertical: 20),
+                margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 20),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     color: (index == _currentPage ||
@@ -110,7 +110,6 @@ class SliderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var _height = MediaQuery.of(context).size.height;
-    var _width = MediaQuery.of(context).size.width;
     return SafeArea(
       child: Column(
         children: [
