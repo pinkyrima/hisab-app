@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 class KColor {
-  static const Color primary = Color(0xFF209FCD);
+  static const Color primary = Color(0xFF100D40);
   static const Color secondary = Color(0xFF151C1F);
   static const Color whisper = Color(0xFFEEEEEE);
   static const Color grey = Color(0xFF999999);
+  static const Color gray = Color(0xFF858585);
   static const Color white = Color(0xFFFFFFFF);
   static const Color mercury = Color(0xFFE6E6E6);
   static const Color gainsboro = Color(0xFFDCDCDC);

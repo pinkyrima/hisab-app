@@ -59,7 +59,7 @@ class KTextStyle {
     letterSpacing: 0.15,
   );
   static TextStyle button = const TextStyle(
-    color: KColor.primary,
+    //color: KColor.primary,
     fontSize: 14,
     fontWeight: FontWeight.w500,
     letterSpacing: 1.25,
